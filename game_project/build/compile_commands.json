@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/game_project/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\background.c.obj -c C:\\game_project\\src\\background.c",
+  "file": "C:/game_project/src/background.c",
+  "output": "CMakeFiles/YourProgram.dir/src/background.c.obj"
+},
+{
+  "directory": "C:/game_project/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\main.c.obj -c C:\\game_project\\src\\main.c",
+  "file": "C:/game_project/src/main.c",
+  "output": "CMakeFiles/YourProgram.dir/src/main.c.obj"
+}
+]
