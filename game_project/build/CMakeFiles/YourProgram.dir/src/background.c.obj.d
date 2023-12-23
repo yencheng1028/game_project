@@ -92,4 +92,6 @@ CMakeFiles/YourProgram.dir/src/background.c.obj: \
   D:/AllegroLib_5.2.8/include/allegro5/platform/alwin.h \
   D:/AllegroLib_5.2.8/include/allegro5/allegro_image.h \
   D:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h \
-  D:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+  D:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h \
+  D:/AllegroLib_5.2.8/include/allegro5/allegro_font.h \
+  D:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h

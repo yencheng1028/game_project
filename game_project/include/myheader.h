@@ -6,6 +6,8 @@
 #include <allegro5/allegro_image.h>
 #include <allegro5/allegro_primitives.h>
 #include <allegro5/allegro_audio.h>
+#include <allegro5/allegro_font.h>
+#include <allegro5/allegro_ttf.h>
 
 //enemy direction
 #define DOWN_RIGHT 0
@@ -14,8 +16,8 @@
 #define UP_LEFT 3
 
 #define AIRCRAFT_MOVE 3
-#define LEFT_BORDER 
-#define RIGHT_BORDER 
+#define LEFT_BORDER 20
+#define RIGHT_BORDER 800
 #define AIRCRAFT_SIZE 100
 
 #define SCREEN_W 700
@@ -39,6 +41,8 @@ typedef struct Enemy
 
 typedef struct Aircraft
 {
+    int y; /* y-coordinate of aircraft */
+
     ALLEGRO_BITMAP *img; /* pointer to the Aircraft's image bitmap */
 } Aircraft;
 
@@ -104,11 +108,13 @@ int initialize(game_background* game);
 void initEnemy(Enemy *EnemyPtr, ALLEGRO_BITMAP *img, ALLEGRO_SAMPLE *boing);
 void initAircraft(Aircraft *AircraftPtr, ALLEGRO_BITMAP *img);
 void initPlayers(player_score *players, int nPlayer);
+void allegroDriverInit();
 
 void moveEnemy(Match *matchPtr);
 void moveAircraft(Aircraft *AircraftPtr, ALLEGRO_KEYBOARD_STATE *KBstatePtr);
 void getScore(Match *matchPtr, int player);
 void reverseHorizontalDirection(Match *matchPtr); // reverse the horizontal direction of the enemy
+void reverseVerticalDirection(Enemy *enemyPtr);
 
 void cleanup(game_background* game);
 void draw(game_background* game);

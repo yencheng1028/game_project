@@ -68,11 +68,26 @@ include CMakeFiles/YourProgram.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/YourProgram.dir/flags.make
 
+CMakeFiles/YourProgram.dir/src/allegro_init.c.obj: CMakeFiles/YourProgram.dir/flags.make
+CMakeFiles/YourProgram.dir/src/allegro_init.c.obj: CMakeFiles/YourProgram.dir/includes_C.rsp
+CMakeFiles/YourProgram.dir/src/allegro_init.c.obj: C:/game_project/game_project/src/allegro_init.c
+CMakeFiles/YourProgram.dir/src/allegro_init.c.obj: CMakeFiles/YourProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/YourProgram.dir/src/allegro_init.c.obj"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/YourProgram.dir/src/allegro_init.c.obj -MF CMakeFiles\YourProgram.dir\src\allegro_init.c.obj.d -o CMakeFiles\YourProgram.dir\src\allegro_init.c.obj -c C:\game_project\game_project\src\allegro_init.c
+
+CMakeFiles/YourProgram.dir/src/allegro_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/YourProgram.dir/src/allegro_init.c.i"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\game_project\game_project\src\allegro_init.c > CMakeFiles\YourProgram.dir\src\allegro_init.c.i
+
+CMakeFiles/YourProgram.dir/src/allegro_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/YourProgram.dir/src/allegro_init.c.s"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\game_project\game_project\src\allegro_init.c -o CMakeFiles\YourProgram.dir\src\allegro_init.c.s
+
 CMakeFiles/YourProgram.dir/src/background.c.obj: CMakeFiles/YourProgram.dir/flags.make
 CMakeFiles/YourProgram.dir/src/background.c.obj: CMakeFiles/YourProgram.dir/includes_C.rsp
 CMakeFiles/YourProgram.dir/src/background.c.obj: C:/game_project/game_project/src/background.c
 CMakeFiles/YourProgram.dir/src/background.c.obj: CMakeFiles/YourProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/YourProgram.dir/src/background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/YourProgram.dir/src/background.c.obj"
 	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/YourProgram.dir/src/background.c.obj -MF CMakeFiles\YourProgram.dir\src\background.c.obj.d -o CMakeFiles\YourProgram.dir\src\background.c.obj -c C:\game_project\game_project\src\background.c
 
 CMakeFiles/YourProgram.dir/src/background.c.i: cmake_force
@@ -83,11 +98,26 @@ CMakeFiles/YourProgram.dir/src/background.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/YourProgram.dir/src/background.c.s"
 	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\game_project\game_project\src\background.c -o CMakeFiles\YourProgram.dir\src\background.c.s
 
+CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj: CMakeFiles/YourProgram.dir/flags.make
+CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj: CMakeFiles/YourProgram.dir/includes_C.rsp
+CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj: C:/game_project/game_project/src/enemy_motion.c
+CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj: CMakeFiles/YourProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj -MF CMakeFiles\YourProgram.dir\src\enemy_motion.c.obj.d -o CMakeFiles\YourProgram.dir\src\enemy_motion.c.obj -c C:\game_project\game_project\src\enemy_motion.c
+
+CMakeFiles/YourProgram.dir/src/enemy_motion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/YourProgram.dir/src/enemy_motion.c.i"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\game_project\game_project\src\enemy_motion.c > CMakeFiles\YourProgram.dir\src\enemy_motion.c.i
+
+CMakeFiles/YourProgram.dir/src/enemy_motion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/YourProgram.dir/src/enemy_motion.c.s"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\game_project\game_project\src\enemy_motion.c -o CMakeFiles\YourProgram.dir\src\enemy_motion.c.s
+
 CMakeFiles/YourProgram.dir/src/main.c.obj: CMakeFiles/YourProgram.dir/flags.make
 CMakeFiles/YourProgram.dir/src/main.c.obj: CMakeFiles/YourProgram.dir/includes_C.rsp
 CMakeFiles/YourProgram.dir/src/main.c.obj: C:/game_project/game_project/src/main.c
 CMakeFiles/YourProgram.dir/src/main.c.obj: CMakeFiles/YourProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/YourProgram.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/YourProgram.dir/src/main.c.obj"
 	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/YourProgram.dir/src/main.c.obj -MF CMakeFiles\YourProgram.dir\src\main.c.obj.d -o CMakeFiles\YourProgram.dir\src\main.c.obj -c C:\game_project\game_project\src\main.c
 
 CMakeFiles/YourProgram.dir/src/main.c.i: cmake_force
@@ -98,16 +128,54 @@ CMakeFiles/YourProgram.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/YourProgram.dir/src/main.c.s"
 	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\game_project\game_project\src\main.c -o CMakeFiles\YourProgram.dir\src\main.c.s
 
+CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj: CMakeFiles/YourProgram.dir/flags.make
+CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj: CMakeFiles/YourProgram.dir/includes_C.rsp
+CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj: C:/game_project/game_project/src/paddle_motion.c
+CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj: CMakeFiles/YourProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj -MF CMakeFiles\YourProgram.dir\src\paddle_motion.c.obj.d -o CMakeFiles\YourProgram.dir\src\paddle_motion.c.obj -c C:\game_project\game_project\src\paddle_motion.c
+
+CMakeFiles/YourProgram.dir/src/paddle_motion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/YourProgram.dir/src/paddle_motion.c.i"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\game_project\game_project\src\paddle_motion.c > CMakeFiles\YourProgram.dir\src\paddle_motion.c.i
+
+CMakeFiles/YourProgram.dir/src/paddle_motion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/YourProgram.dir/src/paddle_motion.c.s"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\game_project\game_project\src\paddle_motion.c -o CMakeFiles\YourProgram.dir\src\paddle_motion.c.s
+
+CMakeFiles/YourProgram.dir/src/score.c.obj: CMakeFiles/YourProgram.dir/flags.make
+CMakeFiles/YourProgram.dir/src/score.c.obj: CMakeFiles/YourProgram.dir/includes_C.rsp
+CMakeFiles/YourProgram.dir/src/score.c.obj: C:/game_project/game_project/src/score.c
+CMakeFiles/YourProgram.dir/src/score.c.obj: CMakeFiles/YourProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/YourProgram.dir/src/score.c.obj"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/YourProgram.dir/src/score.c.obj -MF CMakeFiles\YourProgram.dir\src\score.c.obj.d -o CMakeFiles\YourProgram.dir\src\score.c.obj -c C:\game_project\game_project\src\score.c
+
+CMakeFiles/YourProgram.dir/src/score.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/YourProgram.dir/src/score.c.i"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\game_project\game_project\src\score.c > CMakeFiles\YourProgram.dir\src\score.c.i
+
+CMakeFiles/YourProgram.dir/src/score.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/YourProgram.dir/src/score.c.s"
+	C:\llvm-mingw-20231114-msvcrt-x86_64\bin\clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\game_project\game_project\src\score.c -o CMakeFiles\YourProgram.dir\src\score.c.s
+
 # Object files for target YourProgram
 YourProgram_OBJECTS = \
+"CMakeFiles/YourProgram.dir/src/allegro_init.c.obj" \
 "CMakeFiles/YourProgram.dir/src/background.c.obj" \
-"CMakeFiles/YourProgram.dir/src/main.c.obj"
+"CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj" \
+"CMakeFiles/YourProgram.dir/src/main.c.obj" \
+"CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj" \
+"CMakeFiles/YourProgram.dir/src/score.c.obj"
 
 # External object files for target YourProgram
 YourProgram_EXTERNAL_OBJECTS =
 
+C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/src/allegro_init.c.obj
 C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/src/background.c.obj
+C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj
 C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/src/main.c.obj
+C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj
+C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/src/score.c.obj
 C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/build.make
 C:/game_project/game_project/YourProgram.exe: D:/AllegroLib_5.2.8/lib/liballegro.dll.a
 C:/game_project/game_project/YourProgram.exe: D:/AllegroLib_5.2.8/lib/liballegro_primitives.dll.a
@@ -120,7 +188,7 @@ C:/game_project/game_project/YourProgram.exe: D:/AllegroLib_5.2.8/lib/liballegro
 C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/linkLibs.rsp
 C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/objects1.rsp
 C:/game_project/game_project/YourProgram.exe: CMakeFiles/YourProgram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable C:\game_project\game_project\YourProgram.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\game_project\game_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable C:\game_project\game_project\YourProgram.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\YourProgram.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

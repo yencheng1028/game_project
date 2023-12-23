@@ -128,6 +128,30 @@ YourProgram/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/build
 .PHONY : YourProgram/fast
 
+src/allegro_init.obj: src/allegro_init.c.obj
+.PHONY : src/allegro_init.obj
+
+# target to build an object file
+src/allegro_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/allegro_init.c.obj
+.PHONY : src/allegro_init.c.obj
+
+src/allegro_init.i: src/allegro_init.c.i
+.PHONY : src/allegro_init.i
+
+# target to preprocess a source file
+src/allegro_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/allegro_init.c.i
+.PHONY : src/allegro_init.c.i
+
+src/allegro_init.s: src/allegro_init.c.s
+.PHONY : src/allegro_init.s
+
+# target to generate assembly for a file
+src/allegro_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/allegro_init.c.s
+.PHONY : src/allegro_init.c.s
+
 src/background.obj: src/background.c.obj
 .PHONY : src/background.obj
 
@@ -151,6 +175,30 @@ src/background.s: src/background.c.s
 src/background.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/background.c.s
 .PHONY : src/background.c.s
+
+src/enemy_motion.obj: src/enemy_motion.c.obj
+.PHONY : src/enemy_motion.obj
+
+# target to build an object file
+src/enemy_motion.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/enemy_motion.c.obj
+.PHONY : src/enemy_motion.c.obj
+
+src/enemy_motion.i: src/enemy_motion.c.i
+.PHONY : src/enemy_motion.i
+
+# target to preprocess a source file
+src/enemy_motion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/enemy_motion.c.i
+.PHONY : src/enemy_motion.c.i
+
+src/enemy_motion.s: src/enemy_motion.c.s
+.PHONY : src/enemy_motion.s
+
+# target to generate assembly for a file
+src/enemy_motion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/enemy_motion.c.s
+.PHONY : src/enemy_motion.c.s
 
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
@@ -176,6 +224,54 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/paddle_motion.obj: src/paddle_motion.c.obj
+.PHONY : src/paddle_motion.obj
+
+# target to build an object file
+src/paddle_motion.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj
+.PHONY : src/paddle_motion.c.obj
+
+src/paddle_motion.i: src/paddle_motion.c.i
+.PHONY : src/paddle_motion.i
+
+# target to preprocess a source file
+src/paddle_motion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/paddle_motion.c.i
+.PHONY : src/paddle_motion.c.i
+
+src/paddle_motion.s: src/paddle_motion.c.s
+.PHONY : src/paddle_motion.s
+
+# target to generate assembly for a file
+src/paddle_motion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/paddle_motion.c.s
+.PHONY : src/paddle_motion.c.s
+
+src/score.obj: src/score.c.obj
+.PHONY : src/score.obj
+
+# target to build an object file
+src/score.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/score.c.obj
+.PHONY : src/score.c.obj
+
+src/score.i: src/score.c.i
+.PHONY : src/score.i
+
+# target to preprocess a source file
+src/score.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/score.c.i
+.PHONY : src/score.c.i
+
+src/score.s: src/score.c.s
+.PHONY : src/score.s
+
+# target to generate assembly for a file
+src/score.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/score.c.s
+.PHONY : src/score.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +281,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... YourProgram
+	@echo ... src/allegro_init.obj
+	@echo ... src/allegro_init.i
+	@echo ... src/allegro_init.s
 	@echo ... src/background.obj
 	@echo ... src/background.i
 	@echo ... src/background.s
+	@echo ... src/enemy_motion.obj
+	@echo ... src/enemy_motion.i
+	@echo ... src/enemy_motion.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/paddle_motion.obj
+	@echo ... src/paddle_motion.i
+	@echo ... src/paddle_motion.s
+	@echo ... src/score.obj
+	@echo ... src/score.i
+	@echo ... src/score.s
 .PHONY : help
 
 
