@@ -1,5 +1,6 @@
 CMakeFiles/YourProgram.dir/src/background.c.obj: \
-  C:/game_project/src/background.c C:/game_project/include/myheader.h \
+  C:/game_project/game_project/src/background.c \
+  C:/game_project/game_project/include/myheader.h \
   C:/llvm-mingw-20231114-msvcrt-x86_64/include/stdio.h \
   C:/llvm-mingw-20231114-msvcrt-x86_64/include/corecrt_stdio_config.h \
   C:/llvm-mingw-20231114-msvcrt-x86_64/include/corecrt.h \

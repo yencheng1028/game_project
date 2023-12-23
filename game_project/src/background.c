@@ -1,5 +1,7 @@
 #include "myheader.h"
-void Gamebackground_call() {
+
+void Gamebackground_call() 
+{
     game_background game;
 
     if (initialize(&game) != 0) {
@@ -29,7 +31,7 @@ int initialize(game_background* game) {
     }
 
     game->display = al_create_display(SCREEN_W, SCREEN_H);
-    game->background = al_load_bitmap("./starry_sky1.jpg");
+    game->background = al_load_bitmap("assets/starry_sky1.jpg");
 
     if (!game->display || !game->background) {
         fprintf(stderr, "Failed to initialize or load resources!\n");

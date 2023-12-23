@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "C:/game_project/YourProgram.exe"
-  "C:/game_project/YourProgram.exe.manifest"
-  "C:/game_project/YourProgram.pdb"
-  "C:/game_project/libYourProgram.dll.a"
+  "C:/game_project/game_project/YourProgram.exe"
+  "C:/game_project/game_project/YourProgram.exe.manifest"
+  "C:/game_project/game_project/YourProgram.pdb"
+  "C:/game_project/game_project/libYourProgram.dll.a"
   "CMakeFiles/YourProgram.dir/src/background.c.obj"
   "CMakeFiles/YourProgram.dir/src/background.c.obj.d"
   "CMakeFiles/YourProgram.dir/src/main.c.obj"
