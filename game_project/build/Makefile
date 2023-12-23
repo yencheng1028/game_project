@@ -128,6 +128,30 @@ YourProgram/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/build
 .PHONY : YourProgram/fast
 
+src/aircraft_motion.obj: src/aircraft_motion.c.obj
+.PHONY : src/aircraft_motion.obj
+
+# target to build an object file
+src/aircraft_motion.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/aircraft_motion.c.obj
+.PHONY : src/aircraft_motion.c.obj
+
+src/aircraft_motion.i: src/aircraft_motion.c.i
+.PHONY : src/aircraft_motion.i
+
+# target to preprocess a source file
+src/aircraft_motion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/aircraft_motion.c.i
+.PHONY : src/aircraft_motion.c.i
+
+src/aircraft_motion.s: src/aircraft_motion.c.s
+.PHONY : src/aircraft_motion.s
+
+# target to generate assembly for a file
+src/aircraft_motion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/aircraft_motion.c.s
+.PHONY : src/aircraft_motion.c.s
+
 src/allegro_init.obj: src/allegro_init.c.obj
 .PHONY : src/allegro_init.obj
 
@@ -224,30 +248,6 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/paddle_motion.obj: src/paddle_motion.c.obj
-.PHONY : src/paddle_motion.obj
-
-# target to build an object file
-src/paddle_motion.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj
-.PHONY : src/paddle_motion.c.obj
-
-src/paddle_motion.i: src/paddle_motion.c.i
-.PHONY : src/paddle_motion.i
-
-# target to preprocess a source file
-src/paddle_motion.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/paddle_motion.c.i
-.PHONY : src/paddle_motion.c.i
-
-src/paddle_motion.s: src/paddle_motion.c.s
-.PHONY : src/paddle_motion.s
-
-# target to generate assembly for a file
-src/paddle_motion.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/paddle_motion.c.s
-.PHONY : src/paddle_motion.c.s
-
 src/score.obj: src/score.c.obj
 .PHONY : src/score.obj
 
@@ -281,6 +281,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... YourProgram
+	@echo ... src/aircraft_motion.obj
+	@echo ... src/aircraft_motion.i
+	@echo ... src/aircraft_motion.s
 	@echo ... src/allegro_init.obj
 	@echo ... src/allegro_init.i
 	@echo ... src/allegro_init.s
@@ -293,9 +296,6 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/paddle_motion.obj
-	@echo ... src/paddle_motion.i
-	@echo ... src/paddle_motion.s
 	@echo ... src/score.obj
 	@echo ... src/score.i
 	@echo ... src/score.s

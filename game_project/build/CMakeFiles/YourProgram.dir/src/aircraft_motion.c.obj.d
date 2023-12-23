@@ -1,5 +1,5 @@
-CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj: \
-  C:/game_project/game_project/src/paddle_motion.c \
+CMakeFiles/YourProgram.dir/src/aircraft_motion.c.obj: \
+  C:/game_project/game_project/src/aircraft_motion.c \
   C:/game_project/game_project/include/myheader.h \
   C:/llvm-mingw-20231114-msvcrt-x86_64/include/stdio.h \
   C:/llvm-mingw-20231114-msvcrt-x86_64/include/corecrt_stdio_config.h \

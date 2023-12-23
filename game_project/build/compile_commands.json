@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/game_project/game_project/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\aircraft_motion.c.obj -c C:\\game_project\\game_project\\src\\aircraft_motion.c",
+  "file": "C:/game_project/game_project/src/aircraft_motion.c",
+  "output": "CMakeFiles/YourProgram.dir/src/aircraft_motion.c.obj"
+},
+{
+  "directory": "C:/game_project/game_project/build",
   "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\allegro_init.c.obj -c C:\\game_project\\game_project\\src\\allegro_init.c",
   "file": "C:/game_project/game_project/src/allegro_init.c",
   "output": "CMakeFiles/YourProgram.dir/src/allegro_init.c.obj"
@@ -22,12 +28,6 @@
   "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\main.c.obj -c C:\\game_project\\game_project\\src\\main.c",
   "file": "C:/game_project/game_project/src/main.c",
   "output": "CMakeFiles/YourProgram.dir/src/main.c.obj"
-},
-{
-  "directory": "C:/game_project/game_project/build",
-  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\paddle_motion.c.obj -c C:\\game_project\\game_project\\src\\paddle_motion.c",
-  "file": "C:/game_project/game_project/src/paddle_motion.c",
-  "output": "CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj"
 },
 {
   "directory": "C:/game_project/game_project/build",
