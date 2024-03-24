@@ -1,0 +1,3 @@
+C:/AllegroProj_E/build/CMakeFiles/YourProgram.dir
+C:/AllegroProj_E/build/CMakeFiles/edit_cache.dir
+C:/AllegroProj_E/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/AllegroProj_E/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\allegro_init.c.obj -c C:\\AllegroProj_E\\src\\allegro_init.c",
+  "file": "C:/AllegroProj_E/src/allegro_init.c",
+  "output": "CMakeFiles/YourProgram.dir/src/allegro_init.c.obj"
+},
+{
+  "directory": "C:/AllegroProj_E/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\ball_motion.c.obj -c C:\\AllegroProj_E\\src\\ball_motion.c",
+  "file": "C:/AllegroProj_E/src/ball_motion.c",
+  "output": "CMakeFiles/YourProgram.dir/src/ball_motion.c.obj"
+},
+{
+  "directory": "C:/AllegroProj_E/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\main.c.obj -c C:\\AllegroProj_E\\src\\main.c",
+  "file": "C:/AllegroProj_E/src/main.c",
+  "output": "CMakeFiles/YourProgram.dir/src/main.c.obj"
+},
+{
+  "directory": "C:/AllegroProj_E/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\paddle_motion.c.obj -c C:\\AllegroProj_E\\src\\paddle_motion.c",
+  "file": "C:/AllegroProj_E/src/paddle_motion.c",
+  "output": "CMakeFiles/YourProgram.dir/src/paddle_motion.c.obj"
+},
+{
+  "directory": "C:/AllegroProj_E/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\score.c.obj -c C:\\AllegroProj_E\\src\\score.c",
+  "file": "C:/AllegroProj_E/src/score.c",
+  "output": "CMakeFiles/YourProgram.dir/src/score.c.obj"
+}
+]
