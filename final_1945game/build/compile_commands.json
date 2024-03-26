@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\clean.c.obj -c C:\\game_project003\\src\\clean.c",
+  "file": "C:/game_project003/src/clean.c",
+  "output": "CMakeFiles/YourProgram.dir/src/clean.c.obj"
+},
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\drawing.c.obj -c C:\\game_project003\\src\\drawing.c",
+  "file": "C:/game_project003/src/drawing.c",
+  "output": "CMakeFiles/YourProgram.dir/src/drawing.c.obj"
+},
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\game_call.c.obj -c C:\\game_project003\\src\\game_call.c",
+  "file": "C:/game_project003/src/game_call.c",
+  "output": "CMakeFiles/YourProgram.dir/src/game_call.c.obj"
+},
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\initialization.c.obj -c C:\\game_project003\\src\\initialization.c",
+  "file": "C:/game_project003/src/initialization.c",
+  "output": "CMakeFiles/YourProgram.dir/src/initialization.c.obj"
+},
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\main.c.obj -c C:\\game_project003\\src\\main.c",
+  "file": "C:/game_project003/src/main.c",
+  "output": "CMakeFiles/YourProgram.dir/src/main.c.obj"
+},
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\score.c.obj -c C:\\game_project003\\src\\score.c",
+  "file": "C:/game_project003/src/score.c",
+  "output": "CMakeFiles/YourProgram.dir/src/score.c.obj"
+},
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\score_save.c.obj -c C:\\game_project003\\src\\score_save.c",
+  "file": "C:/game_project003/src/score_save.c",
+  "output": "CMakeFiles/YourProgram.dir/src/score_save.c.obj"
+},
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\spawnneweneimes.c.obj -c C:\\game_project003\\src\\spawnneweneimes.c",
+  "file": "C:/game_project003/src/spawnneweneimes.c",
+  "output": "CMakeFiles/YourProgram.dir/src/spawnneweneimes.c.obj"
+},
+{
+  "directory": "C:/game_project003/build",
+  "command": "C:\\llvm-mingw-20231114-msvcrt-x86_64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\updating.c.obj -c C:\\game_project003\\src\\updating.c",
+  "file": "C:/game_project003/src/updating.c",
+  "output": "CMakeFiles/YourProgram.dir/src/updating.c.obj"
+}
+]
